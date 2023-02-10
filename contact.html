@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>CONTACT FORM</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            
+            <nav>
+                <ul>
+                    <li><a href="/index.html"> HOME</a></li>
+                    <li><a href="/myinfo.html" >MY INFO</a></li>
+                    <li><a href="/skills.html">SKILLS</a> </li>
+                    <li><a href="/cv.pdf" target="_blank">CV</a> </li>
+                    <li><a href="/contact.html">CONTACT ME</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="main">
+                <div class="hamburger">
+                <img class="ham" src="ham.png" alt="">
+                <img class="cross" src="x-mark.png"></div>
+           <div class="contactform">
+            <h2>CONTACT ME FOR ANY QUERIES BY FILLING UP THE FORM</h2>
+            <form>
+                <div class="mb-3">
+                  <label for="username" class="form-label">Name :</label>
+                  <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="usermail" class="form-label">Email address :</label>
+                  <input type="email" class="form-control" id="usermail" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="userphone" class="form-label">Phone Number :</label>
+                    <input type="phone" class="form-control" id="userphone">
+                    <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="userquery" class="form-label">Type your Query in Detail :</label>
+                    <input type="text" class="form-control" id="userquery" aria-describedby="emailHelp">
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="isuser">
+                  <label class="form-check-label" for="isuser">Work/Hiring Related queries</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+           </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
